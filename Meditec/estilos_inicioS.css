@@ -1,0 +1,109 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(21, 144, 226);
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+}
+nav ul li a:hover {
+    background-color: rgb(4, 65, 105);
+    border-radius: 5px;
+}
+section {
+    margin-top: 0;
+    background-color: #e0dbff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: 0%;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+}
+.login-title {
+    font-size: 24px;
+    color: rgb(6, 86, 139);
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: Arial;
+    color: #495057;
+    font-weight: bold;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.login-button {
+    background-color: rgb(66, 103, 141);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 10px;
+}
+.login-button:hover {
+    background-color: #0e1a41;
+    transform: scale(1.02);
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial;
+}
+.links a {
+    color: rgb(21, 144, 226);
+    text-decoration: none;
+    font-size: 14px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
